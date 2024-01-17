@@ -1,0 +1,27 @@
+.content{
+    background-color: rgb(207, 162, 79);
+    color: black;
+    align-items: center;
+    display: flex;
+}
+a{
+    color:white;
+}
+.container{
+    background-color:rgb(201, 160, 107);
+    align-items: center;
+    display: flex;
+    height: 80px;
+}
+.container1{
+    background-color: rgb(201, 123, 87);
+    color: black;
+}
+.container2{
+    background-color: rgb(165, 87, 42);
+    color: black;
+}
+.container3{
+    background-color: rgb(165, 116, 42);
+    color:black;
+}
