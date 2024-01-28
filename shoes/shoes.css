@@ -1,0 +1,8 @@
+.shoes{
+    display: flex;
+}
+h1{
+    background-color: rgb(228, 118, 136);
+    border-radius: 35px;
+    text-align: center;
+}

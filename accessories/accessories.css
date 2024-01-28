@@ -1,0 +1,16 @@
+.container{
+   display: flex;
+   margin: 36px;
+   padding: 10px;
+   margin-right: 20px;
+   margin-bottom: 20px;
+   display: flex;
+   flex-wrap: wrap;
+
+}
+h1{
+    background-color: rgb(224, 114, 188);
+    text-align: center;
+    border-radius: 15px;
+}
+

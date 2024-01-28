@@ -1,0 +1,8 @@
+.clothes{
+    display: flex;
+}
+h1{
+    background-color: rgb(206, 90, 109);
+    border-radius: 45px;
+    text-align: center;
+}

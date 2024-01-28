@@ -1,0 +1,8 @@
+.bags{
+    display: flex;
+}
+h1{
+    background-color: pink;
+    border-radius: 45px;
+    text-align: center;
+}
