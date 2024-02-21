@@ -1,8 +1,31 @@
-.clothes{
-    display: flex;
+body {
+    background-color: lightgrey;
+    flex-direction: column;
 }
+
 h1{
-    background-color: rgb(206, 90, 109);
-    border-radius: 45px;
     text-align: center;
+    border-radius: 35px;
+    background-image: linear-gradient(rgb(248, 243, 243), rgb(218, 106, 180));
+
+}
+button {
+    border-radius:60px 70px 40px 140px;
+    background-image: linear-gradient(white, rgb(218, 106, 180));
+    padding: 15px 32px;
+    font-size: 15px;
+   
+}
+.clothes {
+     filter: drop-shadow(10px 7px 10px rgb(218, 158, 168));
+     margin-top: 8px;
+}
+
+p {
+    color: rgb(85, 83, 83);
+    text-decoration: underline;
+    font-size: larger;
+    text-shadow: 0px 0px 8px orchid,
+    0px 0px 8px orchid,
+    0px 0px 8px orchid;
 }

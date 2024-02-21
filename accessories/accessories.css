@@ -1,4 +1,8 @@
-.container{
+
+body {
+    background-color: rgb(226, 226, 197);
+}
+.bijoux {
    display: flex;
    margin: 36px;
    padding: 10px;
@@ -9,8 +13,32 @@
 
 }
 h1{
-    background-color: rgb(224, 114, 188);
+    background-color: rgb(243, 148, 40);
     text-align: center;
     border-radius: 15px;
+    color: white;
+    text-shadow: 0px 0px 8px rgb(226, 226, 197),
+    0px 0px 8px rgb(226, 226, 197),
+    0px 0px 8px rgb(226, 226, 197);
 }
+button {
+    border-radius: 60px 70px 40px 140px;
+    background-color:  rgb(243, 148, 40);
+   
+    font-size: 15px;
+}
+.accessories {
+    
+    filter: drop-shadow(10px 7px 10px orange);  
+    margin-top: 8px;
+}
+
+p {
+    text-decoration: underline;
+    font-size: larger;
+    text-shadow: 0px 0px 8px orange,
+    0px 0px 8px orange,
+    0px 0px 8px orange;
+}
+
 

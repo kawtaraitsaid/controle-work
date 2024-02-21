@@ -1,0 +1,26 @@
+body{
+     background-image: linear-gradient(lightblue,rgb(161, 161, 226));
+    
+}
+.cadre {
+    border: solid#000;
+    width: 30%;
+    
+}
+label,input,textarea,select {
+    display: block; 
+    margin: 20px;
+}
+textarea{
+    height: 100px;
+}
+button{
+    background-color: rgb(161, 161, 226);
+    padding:10px;
+    color: rgb(68, 63, 63);
+    border-radius: 10px;
+    margin: 10px;
+}
+button:hover{
+    background-color:lightblue;
+}
