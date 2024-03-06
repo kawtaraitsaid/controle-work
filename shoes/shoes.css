@@ -1,30 +1,177 @@
  body{
-     background-color:rgb(187, 248, 187);
-
+     background-color: lightgoldenrodyellow;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     gap: 20px;
+     min-height: 100vh;
 }
 
-h1{
-    background-color:green;
-    border-radius: 35px;
-    text-align: center;
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: burlywood;
+    position: fixed;
+    z-index: 999;
+ }
+ a {
+     text-decoration: none;
+     color: black; 
+ }  
+ 
+
+ 
+nav ul{
+    display: flex;
+    gap: 2.5rem;
+    text-decoration: none;
 }
-button {
-    border-radius:60px 70px 40px 140px;
-    background-image: linear-gradient(green,white);
-    padding: 15px 32px;
-    font-size: 15px;
+li {
+    display: block;
+    transition: .5s;
 }
-.shoes{
+ul:hover li {
+    filter: blur(5px);
+}
+ul li:hover {
+    filter: blur(0px); 
+}
+.cart{
+    position: relative;
+    width: 300px;
+    height: 180px;
+    display: flex;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    background-color: burlywood;
+    color: black;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 15px;
+    margin-top: 122px;
     
-filter: drop-shadow(10px 7px 10px green);  
-margin-top: 8px;
+}
+.cart:hover{
+    HEIGHT: 560px
+} 
+.size {
+    list-style-type: none;
+    position:relative;
+    right:25px;
+    
+}
+.size li{
+    border: 1px solid white;
+    padding:10px
+}
+
+
+.cart2{
+    position: relative;
+    width: 300px;
+    height: 180px;
+    background: #0000;
+    display: flex;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    background-color: burlywood;
+    color: black;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 15px;
+}
+.cart2:hover{
+    HEIGHT: 560px
+} 
+.size{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
 } 
 
-p {
-    color:white;
-    text-decoration: underline;
-    font-size: larger;
-    text-shadow: 0px 0px 8px rgb(9, 243, 29),
-    0px 0px 8px rgb(9, 243, 29),
-    0px 0px 8px rgb(9, 243, 29);
+ .cart3{
+    position: relative;
+    width: 300px;
+    height: 180px;
+    background: #0000;
+    display: flex;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    background-color: burlywood;
+    color: black;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 15px;
+}
+.cart3:hover{
+    HEIGHT: 560px
+} 
+
+
+.cart4{
+    position: relative;
+    width: 300px;
+    height: 180px;
+    background: #0000;
+    display: flex;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    background-color: burlywood;
+    color: black;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 15px;
+}
+.cart4:hover{
+    HEIGHT: 560px
+} 
+
+.cart5{ 
+    position: relative;
+    width: 300px;
+    height: 180px;
+    background: #0000;
+    display: flex;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    background-color: burlywood;
+    color: white;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 15px;
+}
+.cart5:hover{
+    HEIGHT: 560px
+} 
+/* 
+h1{
+    text-align: center;
+    background-color:burlywood;
+    border-radius: 35px;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+} */
+button {
+    border-radius:60px 70px 40px 140px;
+    background-color: blanchedalmond;
+    height: 40px;
+    width: 150px;
+    font-size: 15px;
+} 
+.emplacement{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   gap: 30px;
+}
+
+.shoes{
+    height: 200px;
+    width: 240px;
+    
 }

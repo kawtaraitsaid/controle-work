@@ -2,16 +2,85 @@
 body {
     background-color: rgb(226, 226, 197);
 }
-.bijoux {
-   display: flex;
-   margin: 36px;
-   padding: 10px;
-   margin-right: 20px;
-   margin-bottom: 20px;
-   display: flex;
-   flex-wrap: wrap;
+.logo{
+    height: 90px;
+    width: 100px;
 
 }
+header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+  
+   background-color: black;
+}
+a {
+    text-decoration: none;
+    color: white; 
+}  ;
+@keyframes mySpiner {
+    from {
+    transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-45deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.content {
+    font-size: 20px;
+}
+nav ul li{
+display: flex;
+gap: 2.5rem;
+text-decoration: none;
+}
+li {
+display: block;
+transition: .5s;
+}
+ul:hover li {
+filter: blur(5px);
+}
+ul li:hover {
+filter: blur(0px); 
+}
+h2{
+background-image: linear-gradient(lightgray,lightblue);
+height: 30px;
+text-align: center;
+margin-top: 0;
+color: rgb(250, 247, 247);
+text-shadow: 0px 0px 8px rgb(33, 160, 199),
+0px 0px 8px  rgb(33, 160, 199),
+0px 0px 8px  rgb(33, 160, 199);
+} 
+.bijoux {
+   display: flex;
+   margin-right: 20px;
+   height: 30px;
+   width: 50px;
+   flex-direction: row;
+   justify-content: space-between;
+   gap: 20px; 
+
+}
+.bijouya{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.bijou{
+    display: flex;
+    flex-direction: row;
+    
+ 
+    gap: 20px;
+     
+}
+ 
 h1{
     background-color: rgb(243, 148, 40);
     text-align: center;
@@ -27,18 +96,20 @@ button {
    
     font-size: 15px;
 }
-.accessories {
-    
-    filter: drop-shadow(10px 7px 10px orange);  
+.accessories {  
     margin-top: 8px;
+    height: 200px;
+    width: 200px;
 }
-
+.accessories:hover{
+    box-shadow: 0px 0px 8px orange,
+    0px 0px 8px orange,
+    0px 0px 8px orange;
+}
 p {
     text-decoration: underline;
     font-size: larger;
-    text-shadow: 0px 0px 8px orange,
-    0px 0px 8px orange,
-    0px 0px 8px orange;
+    
 }
 
 

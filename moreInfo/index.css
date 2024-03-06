@@ -1,26 +1,38 @@
 body{
-     background-image: linear-gradient(lightblue,rgb(161, 161, 226));
-    
+     background-color: lightblue;
+     display: flex;
+     text-align: center;
+     justify-content: center;
+     
+      
 }
 .cadre {
-    border: solid#000;
+    border: solid transparent;
     width: 30%;
-    
-}
-label,input,textarea,select {
+    background-color: rgb(18, 95, 119);
+    border-radius: 40px;
+    transition: border-color 0.3s ease;
+    border-color:  rgb(148, 148, 248);
+    box-shadow: 0px 100px 60px 900px rgb(123, 123, 240);
+} 
+label,input,textarea,select,button {
     display: block; 
     margin: 20px;
+    width: 70%;
+    height: 30px;
+     
 }
 textarea{
     height: 100px;
 }
+
 button{
     background-color: rgb(161, 161, 226);
-    padding:10px;
+    
     color: rgb(68, 63, 63);
     border-radius: 10px;
-    margin: 10px;
-}
+     
+} 
 button:hover{
     background-color:lightblue;
 }

@@ -1,31 +1,169 @@
 body {
     background-color: lightgrey;
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20Px;
 }
 
-h1{
-    text-align: center;
-    border-radius: 35px;
-    background-image: linear-gradient(rgb(248, 243, 243), rgb(218, 106, 180));
-
-}
-button {
-    border-radius:60px 70px 40px 140px;
-    background-image: linear-gradient(white, rgb(218, 106, 180));
-    padding: 15px 32px;
-    font-size: 15px;
+marquee {
+    font-size: 27px;
+    display: flex;
+    justify-content: center; 
+    font-family: Arial, Helvetica, sans-serif;
    
 }
-.clothes {
-     filter: drop-shadow(10px 7px 10px rgb(218, 158, 168));
-     margin-top: 8px;
-}
+ 
+header{
+    display: flex;
+    justify-content: space-between; 
+    height: 100px;
+    width: 100%;
+    background-color: burlywood;
+    position: fixed;
+ }
+ .content{
+     font-size: 20px;
+ }
+ nav ul{
+     display: flex;
+     gap: 2.5rem;
+     text-decoration: none;
+ }
+ li {
+     display: block;
+     transition: .5s;
+ }
+ ul:hover li {
+     filter: blur(5px);
+ }
+ ul li:hover {
+     filter: blur(0px); 
+ }
+ a {
+     text-decoration: none;
+     color: black; 
+ } 
 
-p {
-    color: rgb(85, 83, 83);
-    text-decoration: underline;
-    font-size: larger;
-    text-shadow: 0px 0px 8px orchid,
-    0px 0px 8px orchid,
-    0px 0px 8px orchid;
+ .cart{
+    position: relative;
+    width: 300px;
+    height: 180px;
+    display: flex;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    background-color: burlywood;
+    color: black;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 15px;
+    margin-top: 122px;
+    
+}
+.cart:hover{
+    HEIGHT: 560px
+} 
+
+
+.cart1{
+    position: relative;
+    width: 300px;
+    height: 180px;
+    display: flex;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    background-color: burlywood;
+    color: black;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 15px;
+    margin-top: 122px;
+    
+}
+.cart1:hover{
+    HEIGHT: 560px
+} 
+
+
+.cart2{
+    position: relative;
+    width: 300px;
+    height: 180px;
+    display: flex;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    background-color: burlywood;
+    color: black;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 15px;
+    margin-top: 122px;
+    
+}
+.cart2:hover{
+    HEIGHT: 560px
+} 
+
+
+.cart3{
+    position: relative;
+    width: 300px;
+    height: 180px;
+    display: flex;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    background-color: burlywood;
+    color: black;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 15px;
+    margin-top: 122px;
+    
+}
+.cart3:hover{
+    HEIGHT: 560px
+} 
+
+.cart4{
+    position: relative;
+    width: 300px;
+    height: 180px;
+    display: flex;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    background-color: burlywood;
+    color: black;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 15px;
+    margin-top: 122px;
+    
+}
+.cart4:hover{
+    HEIGHT: 560px
+} 
+
+
+.cart5{
+    position: relative;
+    width: 300px;
+    height: 180px;
+    display: flex;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    background-color: burlywood;
+    color: black;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 15px;
+    margin-top: 122px;
+    
+}
+.cart5:hover{
+    HEIGHT: 560px
+} 
+
+.top{
+    height: 200px;
+    width: 240px;
 }

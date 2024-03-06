@@ -1,33 +1,145 @@
 
 body{
-    background-color: lightblue;
-  
-  
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20Px;
 }
-h1{
-    color: white;
-    background-color: rgb(71, 71, 133);
-    border-radius: 45px;
-    text-align: center;
+header{
+    display: flex;
+    justify-content: space-between; 
+    height: 100px;
+    width: 100%;
+    background-color: burlywood;
+    position: fixed;
+ }
+marquee {
+    font-size: 27px;
+    display: flex;
+    justify-content: center; 
+    font-family: Arial, Helvetica, sans-serif;
+   
 }
-button{
-    border-radius: 60px 70px 40px 140px;
-    background-color: rgb(71, 71, 133);
-    padding: 15px 32px;
-    font-size: 15px;
+.content{
+    font-size: 20px;
+}
+nav ul{
+    display: flex;
+    gap: 2.5rem;
+    text-decoration: none;
+}
+li {
+    display: block;
+    transition: .5s;
+}
+ul:hover li {
+    filter: blur(5px);
+}
+ul li:hover {
+    filter: blur(0px); 
+}
+a {
+    text-decoration: none;
+    color: black; 
+} 
 
+.cart{
+    position: relative;
+    width: 300px;
+    height: 180px;
+    display: flex;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    background-color: burlywood;
+    color: black;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 15px;
+    margin-top: 122px;
     
 }
-.bag{
+.cart:hover{
+    HEIGHT: 560px
+} 
 
-    filter: drop-shadow(10px 7px 10px rgb(66, 66, 145));  
-    margin-top: 8px;
+.cart1{
+    position: relative;
+    width: 300px;
+    height: 180px;
+    display: flex;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    background-color: burlywood;
+    color: black;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 15px;
+    margin-top: 122px;
+    
 }
-p {
-    color: white;
-    text-decoration: underline;
-    font-size: larger;
-    text-shadow: 0px 0px 8px rgb(60, 57, 199),
-                 0px 0px 8px rgb(60, 57, 199),
-                 0px 0px 8px rgb(60, 57, 199);
+.cart1:hover{
+    HEIGHT: 560px
+} 
+
+.cart2{
+    position: relative;
+    width: 300px;
+    height: 180px;
+    display: flex;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    background-color: burlywood;
+    color: black;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 15px;
+    margin-top: 122px;
+    
+}
+.cart2:hover{
+    HEIGHT: 560px
+} 
+
+.cart3{
+    position: relative;
+    width: 300px;
+    height: 180px;
+    display: flex;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    background-color: burlywood;
+    color: black;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 15px;
+    margin-top: 122px;
+    
+}
+.cart3:hover{
+    HEIGHT: 560px
+} 
+
+.cart4{
+    position: relative;
+    width: 300px;
+    height: 180px;
+    display: flex;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    background-color: burlywood;
+    color: black;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 15px;
+    margin-top: 122px;
+    
+}
+.cart4:hover{
+    HEIGHT: 560px
+} 
+
+.bags{
+    height: 200px;
+    width: 240px;
 }
