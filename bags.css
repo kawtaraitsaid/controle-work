@@ -11,18 +11,35 @@ header{
     justify-content: space-between; 
     height: 100px;
     width: 100%;
-    background-color: burlywood;
+    background-color: beige;
     position: fixed;
  }
+ h1{ 
+    font-style: italic;
+    text-decoration: underline;
+    text-shadow: 10PX 7PX 20PX black;
+} 
+.size {
+    list-style-type: none;
+    position:relative;
+    right:25px;
+    
+}
+.size li{
+    border: 1px solid black;
+    padding:10px
+}
 marquee {
-    font-size: 27px;
-    display: flex;
-    justify-content: center; 
+    font-size: 20px; 
+    text-shadow: 7PX 10PX 20PX rgb(12, 8, 73);
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    
    
 }
 .content{
     font-size: 20px;
+  
 }
 nav ul{
     display: flex;
@@ -51,16 +68,17 @@ a {
     display: flex;
     overflow: hidden;
     transition: 0.5s ease-in-out;
-    background-color: burlywood;
+    background-color: beige;
     color: black;
     flex-direction: column;
     border-radius: 10px;
     box-shadow: 0 0 15px;
     margin-top: 122px;
+    text-align: center;
     
 }
 .cart:hover{
-    HEIGHT: 560px
+    HEIGHT: 500px
 } 
 
 .cart1{
@@ -70,16 +88,17 @@ a {
     display: flex;
     overflow: hidden;
     transition: 0.5s ease-in-out;
-    background-color: burlywood;
+    background-color: beige;
     color: black;
     flex-direction: column;
     border-radius: 10px;
     box-shadow: 0 0 15px;
     margin-top: 122px;
+    text-align: center;
     
 }
 .cart1:hover{
-    HEIGHT: 560px
+    HEIGHT: 500px
 } 
 
 .cart2{
@@ -89,16 +108,17 @@ a {
     display: flex;
     overflow: hidden;
     transition: 0.5s ease-in-out;
-    background-color: burlywood;
+    background-color: beige;
     color: black;
     flex-direction: column;
     border-radius: 10px;
     box-shadow: 0 0 15px;
     margin-top: 122px;
+    text-align: center;
     
 }
 .cart2:hover{
-    HEIGHT: 560px
+    HEIGHT: 500px
 } 
 
 .cart3{
@@ -108,18 +128,26 @@ a {
     display: flex;
     overflow: hidden;
     transition: 0.5s ease-in-out;
-    background-color: burlywood;
+    background-color: beige;
     color: black;
     flex-direction: column;
     border-radius: 10px;
     box-shadow: 0 0 15px;
     margin-top: 122px;
+    text-align: center;
     
 }
 .cart3:hover{
-    HEIGHT: 560px
+    HEIGHT: 500px
 } 
-
+button {
+    border-radius:60px 70px 40px 140px;
+    background-color: blanchedalmond;
+    height: 40px;
+    width: 150px;
+    font-size: 15px;
+    border-radius: 30px;
+} 
 .cart4{
     position: relative;
     width: 300px;
@@ -127,16 +155,17 @@ a {
     display: flex;
     overflow: hidden;
     transition: 0.5s ease-in-out;
-    background-color: burlywood;
+    background-color: beige;
     color: black;
     flex-direction: column;
     border-radius: 10px;
     box-shadow: 0 0 15px;
     margin-top: 122px;
+    text-align: center;
     
 }
 .cart4:hover{
-    HEIGHT: 560px
+    HEIGHT: 500px
 } 
 
 .bags{

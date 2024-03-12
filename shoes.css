@@ -1,5 +1,5 @@
  body{
-     background-color: lightgoldenrodyellow;
+     background-color: lightgrey;
      display: flex;
      flex-direction: row;
      justify-content: space-between;
@@ -13,7 +13,7 @@ header{
     align-items: center;
     height: 100px;
     width: 100%;
-    background-color: burlywood;
+    background-color: beige;
     position: fixed;
     z-index: 999;
  }
@@ -46,12 +46,13 @@ ul li:hover {
     display: flex;
     overflow: hidden;
     transition: 0.5s ease-in-out;
-    background-color: burlywood;
+    background-color: beige;
     color: black;
     flex-direction: column;
     border-radius: 10px;
     box-shadow: 0 0 15px;
     margin-top: 122px;
+    text-align: center;
     
 }
 .cart:hover{
@@ -64,8 +65,9 @@ ul li:hover {
     
 }
 .size li{
-    border: 1px solid white;
+    border: 1px solid black;
     padding:10px
+
 }
 
 
@@ -77,11 +79,13 @@ ul li:hover {
     display: flex;
     overflow: hidden;
     transition: 0.5s ease-in-out;
-    background-color: burlywood;
+    background-color: beige;
     color: black;
     flex-direction: column;
     border-radius: 10px;
     box-shadow: 0 0 15px;
+    margin-top: 122px;
+    text-align: center;
 }
 .cart2:hover{
     HEIGHT: 560px
@@ -101,11 +105,13 @@ ul li:hover {
     display: flex;
     overflow: hidden;
     transition: 0.5s ease-in-out;
-    background-color: burlywood;
+    background-color: beige;
     color: black;
     flex-direction: column;
     border-radius: 10px;
     box-shadow: 0 0 15px;
+    margin-top: 122px;
+    text-align: center;
 }
 .cart3:hover{
     HEIGHT: 560px
@@ -120,11 +126,13 @@ ul li:hover {
     display: flex;
     overflow: hidden;
     transition: 0.5s ease-in-out;
-    background-color: burlywood;
+    background-color: beige;
     color: black;
     flex-direction: column;
     border-radius: 10px;
     box-shadow: 0 0 15px;
+    margin-top: 122px;
+    text-align: center;
 }
 .cart4:hover{
     HEIGHT: 560px
@@ -138,30 +146,30 @@ ul li:hover {
     display: flex;
     overflow: hidden;
     transition: 0.5s ease-in-out;
-    background-color: burlywood;
-    color: white;
+    background-color: beige;
+    color: black;
     flex-direction: column;
     border-radius: 10px;
     box-shadow: 0 0 15px;
+    margin-top: 122px;
+    text-align: center;
 }
 .cart5:hover{
     HEIGHT: 560px
 } 
-/* 
-h1{
-    text-align: center;
-    background-color:burlywood;
-    border-radius: 35px;
-    text-align: center;
-    height: 50px;
-    width: 100%;
-} */
+
+h1{ 
+    font-style: italic;
+    text-decoration: underline;
+    text-shadow: 10PX 7PX 20PX black;
+} 
 button {
     border-radius:60px 70px 40px 140px;
     background-color: blanchedalmond;
     height: 40px;
     width: 150px;
     font-size: 15px;
+    border-radius: 30px;
 } 
 .emplacement{
    display: flex;
@@ -174,4 +182,24 @@ button {
     height: 200px;
     width: 240px;
     
+}
+
+@media screen and (max-width:650px) {
+
+    body{
+        background-color: lightgrey;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        min-height: 100vh;
+   }
+    nav ul{
+        display: flex;
+        gap: 0.5rem;
+        text-decoration: none;
+    }
+    li {
+        display: block;
+        transition: .3s;
+    }
 }

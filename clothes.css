@@ -1,5 +1,5 @@
 body {
-    background-color: lightgrey;
+    background-color: rgb(192, 186, 186);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -7,19 +7,20 @@ body {
 }
 
 marquee {
-    font-size: 27px;
-    display: flex;
-    justify-content: center; 
+    font-size: 20px;
+     
+    justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
-   
+    font-style: italic;
+
 }
- 
+
 header{
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     height: 100px;
     width: 100%;
-    background-color: burlywood;
+    background-color: beige;
     position: fixed;
  }
  .content{
@@ -38,12 +39,12 @@ header{
      filter: blur(5px);
  }
  ul li:hover {
-     filter: blur(0px); 
+     filter: blur(0px);
  }
  a {
      text-decoration: none;
-     color: black; 
- } 
+     color: black;
+ }
 
  .cart{
     position: relative;
@@ -52,19 +53,41 @@ header{
     display: flex;
     overflow: hidden;
     transition: 0.5s ease-in-out;
-    background-color: burlywood;
+    background-color: beige;
     color: black;
     flex-direction: column;
     border-radius: 10px;
     box-shadow: 0 0 15px;
     margin-top: 122px;
-    
+    text-align: center;
 }
-.cart:hover{
-    HEIGHT: 560px
+button {
+    border-radius:60px 70px 40px 140px;
+    background-color: rgb(104, 102, 99);
+    height: 40px;
+    width: 150px;
+    font-size: 15px;
+    border-radius: 30px;
 } 
+.cart:hover{
+    HEIGHT: 680px
+}
 
+h1{
+    font-style: italic;
+    text-decoration: underline;
+    text-shadow: 10PX 7PX 20PX black;
+}
+.size {
+    list-style-type: none;
+    position:relative;
+    right:25px;
 
+}
+.size li{
+    border: 1px solid black;
+    padding:10px
+}
 .cart1{
     position: relative;
     width: 300px;
@@ -72,17 +95,17 @@ header{
     display: flex;
     overflow: hidden;
     transition: 0.5s ease-in-out;
-    background-color: burlywood;
+    background-color: beige;
     color: black;
     flex-direction: column;
     border-radius: 10px;
     box-shadow: 0 0 15px;
     margin-top: 122px;
-    
+    text-align: center;
 }
 .cart1:hover{
-    HEIGHT: 560px
-} 
+    HEIGHT: 680px;
+}
 
 
 .cart2{
@@ -92,17 +115,17 @@ header{
     display: flex;
     overflow: hidden;
     transition: 0.5s ease-in-out;
-    background-color: burlywood;
+    background-color: beige;
     color: black;
     flex-direction: column;
     border-radius: 10px;
     box-shadow: 0 0 15px;
     margin-top: 122px;
-    
+    text-align: center;
 }
 .cart2:hover{
-    HEIGHT: 560px
-} 
+    HEIGHT: 680px;
+}
 
 
 .cart3{
@@ -112,17 +135,17 @@ header{
     display: flex;
     overflow: hidden;
     transition: 0.5s ease-in-out;
-    background-color: burlywood;
+    background-color: beige;
     color: black;
     flex-direction: column;
     border-radius: 10px;
     box-shadow: 0 0 15px;
     margin-top: 122px;
-    
+   text-align: center;
 }
 .cart3:hover{
-    HEIGHT: 560px
-} 
+    HEIGHT: 680px;
+}
 
 .cart4{
     position: relative;
@@ -131,17 +154,17 @@ header{
     display: flex;
     overflow: hidden;
     transition: 0.5s ease-in-out;
-    background-color: burlywood;
+    background-color: beige;
     color: black;
     flex-direction: column;
     border-radius: 10px;
     box-shadow: 0 0 15px;
     margin-top: 122px;
-    
+    text-align: center;
 }
 .cart4:hover{
-    HEIGHT: 560px
-} 
+    HEIGHT: 680px;
+}
 
 
 .cart5{
@@ -151,17 +174,17 @@ header{
     display: flex;
     overflow: hidden;
     transition: 0.5s ease-in-out;
-    background-color: burlywood;
+    background-color: beige;
     color: black;
     flex-direction: column;
     border-radius: 10px;
     box-shadow: 0 0 15px;
     margin-top: 122px;
-    
+    text-align: center;
 }
 .cart5:hover{
-    HEIGHT: 560px
-} 
+    HEIGHT: 680px;
+}
 
 .top{
     height: 200px;

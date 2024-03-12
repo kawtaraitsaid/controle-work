@@ -1,0 +1,53 @@
+body,html {
+     margin: 0;
+     padding: 0;
+     height: 100%;
+     font-family: Arial,sans-serif;
+     background-image: url(img/formulaire.jpg);
+      
+} 
+marquee {
+    color: purple;
+    font-size: large;
+    font-style: italic;
+}
+ 
+ 
+.cadre {
+    border: solid transparent;
+    width: 30%;
+    background-color:rgb(215, 165, 248);
+    border-radius: 40px;
+    transition: border-color 0.3s ease;
+    backdrop-filter: blur(5px);
+    background:rgb(215, 165, 248);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50% );
+    
+} 
+.cadre:hover{
+    box-shadow: 10px 7px 20px purple 
+}
+label,input,textarea,select,button {
+    display: block; 
+    margin: 20px;
+    width: 70%;
+    height: 30px;
+     
+}
+textarea{
+    height: 100px;
+}
+
+button{
+    background-color: rgb(178, 92, 185);
+    
+    color: rgb(68, 63, 63);
+    border-radius: 10px;
+     
+} 
+button:hover{
+    background-color:rgb(152, 54, 177);
+}
